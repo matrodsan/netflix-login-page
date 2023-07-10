@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+}
+
+.bg {
+    position: fixed;
+    z-index: -1;
+    opacity: .4;
+}
+
+nav {
+    max-width: 90%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav svg {
+    height: 45px;
+    fill: #e50914;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.caixa {
+    padding: 60px 68px 48px;
+    background-color: rgba(0, 0, 0, .8);
+    width: 450px;
+}
+
+.caixa h3 {
+    color: white;
+}
+
+.btn-red {
+    color: white;
+    font-weight: 700;
+    background-color: #e50914;
+    height: 37px;
+}
+
+.btn-red:hover {
+    background-color: #e50914;
+    color: white;
+}
+
+footer{
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+}
+
+footer > div {
+    max-width: 1000px;
+    margin: 0 auto;
+}
